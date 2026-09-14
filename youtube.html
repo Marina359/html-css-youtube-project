@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/menu.png">
+        <img class="youtube-logo" src="icons/youtube-logo.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+        <img class="search-icon" src="icons/search.png">
+        <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/mic.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/add.png">
+          <div class="tooltip">Create</div>
+        </div>
+          <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/not.png">
+          <div class="notifications-count">3</div>
+      </div>
+        <img class="current-user-picture" src="channel-pictures/account-circle.png">
+  </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.png">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.png">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/history.png">
+        <div>History</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/playlist-play.png">
+        <div>Playlist-play</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/smart-display.png">
+        <div>Your video</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/thumb-up.png">
+        <div>Liked videos</div>
+      </div>
+    </nav>
+    
+    <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <a class="video-link" href="https://www.youtube.com/watch?v=vevKLZHbyM4&t=774s">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">25:34</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Overview of AI for Beginners (2025)
+            </p>
+            <p class="video-author">           
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              22K views • 4 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=dwY7w0k3j2Y&list=RDdwY7w0k3j2Y&start_radio=1">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">1:51:00</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Classical Music for When You’re on a Deadline
+            </p>
+            <p class="video-author">   
+              HALIDONMUSIC
+            </p>
+            <p class="video-stats">
+              13M views • 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=15366s">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">6:31:24</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              17M views • 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=AH_ugxmLeUM&t=40s">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">7:17</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              7 UI/UX mistakes that SCREAM you’re a beginner
+            </p>
+            <p class="video-author">
+              Kole Jain
+            </p>
+            <p class="video-stats">
+              312K views • 8 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=EerdGm-ehJQ&t=32s">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">22:15:56</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              JavaScript Tutorial Full Course - Beginner to Pro
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              7,9M views • 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=p1QU3kLFPdg&t=1422s">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">2:27</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to put an HTML website online (on the Internet)
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              2,5M views • 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=OjEg0IBR_ak">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          <div class="video-time">10:55</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Easiest Way to Build Websites
+            </p>
+            <p class="video-author">            
+              Sajid
+            </p>
+            <p class="video-stats">
+              1,2M views • 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=YvLgZiwoT3U&t=5s">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          <div class="video-time">5:00</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Why My Websites Always Look Next Level
+            </p>
+            <p class="video-author">     
+              Nicolai Palmkvist
+            </p>
+            <p class="video-stats">
+              1,3M views • 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=TtPXvEcE11E">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+          <div class="video-time">11:32:03</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              React Tutorial Full Course - Beginner to Pro (React 19, 2025)
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              681K views • 4 months ago
+            </p>
+          </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=lNxjZ9XLzV0&list=LL&index=50">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+          <div class="video-time">1:08</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Work
+            </p>
+            <p class="video-author">
+              JackStauber
+            </p>
+            <p class="video-stats">
+              6,2M views • 7 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=GFYc5ZT-vFI&t=18s">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+          <div class="video-time">5:56</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              10 Game-Changing Figma Tips & Tricks Every Designer Needs to Know
+            </p>
+            <p class="video-author">      
+              uxpeak
+            </p>
+            <p class="video-stats">
+              60K views • 2 years ago
+            </p>
+          </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=XBu54nfzxAQ&t=1s">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+          <div class="video-time">12:57</div>
+        </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1-3-5-6-9-12.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Backend web development - a complete overview
+            </p>
+            <p class="video-author">          
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              2,5M views • 4 years ago
+            </p>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
